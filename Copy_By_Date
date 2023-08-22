@@ -1,9 +1,10 @@
 #!/bin/bash
 
 #Variables
-ORIGIN=
-DESTINATION=
-TIME=
-LOGFILE=
+ORIGIN= /Storage/Backup/DB
+DESTINATION= /:q!
+TIME= -7
+LOGFILE= /var/log/copydb
+PASSWORDFILE= ~/PASSWORD
 
-find $ORIGIN
+find $ORIGIN 

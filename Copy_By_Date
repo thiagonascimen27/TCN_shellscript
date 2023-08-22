@@ -1,0 +1,9 @@
+#!/bin/bash
+
+#Variables
+ORIGIN=
+DESTINATION=
+TIME=
+LOGFILE=
+
+find $ORIGIN
